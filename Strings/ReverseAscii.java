@@ -26,7 +26,10 @@ public class ReverseAscii {
             char chr=str.charAt(i);
             
             if(i%2==0){
-                ///type casting  as chr+1 will give a integer by default and typecast back to char to get ascii val .     
+
+                ///type casting  as chr+1 will give a integer
+                ///  by default and typecast back to char to get ascii val .   
+                  
                 rev.append((char)(chr+1));
             }
             else{
