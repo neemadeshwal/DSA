@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "PrintArrayRecusively",
+      "request": "launch",
+      "mainClass": "RecusionWithArray.PrintArrayRecusively",
+      "projectName": "DSA_979d8ce3"
+    },
+    {
+      "type": "java",
       "name": "BInaryNonConsecutive",
       "request": "launch",
       "mainClass": "Recursion2.BInaryNonConsecutive",
