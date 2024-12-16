@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SumArrayElement",
+      "request": "launch",
+      "mainClass": "ArrayRecursion.SumArrayElement",
+      "projectName": "DSA_685dbd3"
+    },
+    {
+      "type": "java",
+      "name": "MaxArrayElement",
+      "request": "launch",
+      "mainClass": "ArrayRecursion.MaxArrayElement",
+      "projectName": "DSA_685dbd3"
+    },
+    {
+      "type": "java",
       "name": "BInaryNonConsecutive",
       "request": "launch",
       "mainClass": "Recursion2.BInaryNonConsecutive",
