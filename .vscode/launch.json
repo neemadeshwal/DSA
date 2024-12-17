@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "PermutationByRecursion",
+      "request": "launch",
+      "mainClass": "Backtracking.PermutationByRecursion",
+      "projectName": "DSA_685dbd3"
+    },
+    {
+      "type": "java",
+      "name": "P17LetterCombinations",
+      "request": "launch",
+      "mainClass": "StringRecursion.P17LetterCombinations",
+      "projectName": "DSA_685dbd3"
+    },
+    {
+      "type": "java",
+      "name": "SubSequence",
+      "request": "launch",
+      "mainClass": "StringRecursion.SubSequence",
+      "projectName": "DSA_685dbd3"
+    },
+    {
+      "type": "java",
       "name": "PrintWithoutX",
       "request": "launch",
       "mainClass": "StringRecursion.PrintWithoutX",
