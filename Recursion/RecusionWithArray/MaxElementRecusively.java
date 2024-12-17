@@ -6,13 +6,8 @@ public class MaxElementRecusively {
 
         int[] arr = { 3, 1, 6, 9, 21, 0, -1 };
 
-        System.out.println(maxElement(arr, 0));
+        // System.out.println(maxElement(arr, 0));
 
-    }
-
-    public static int maxElement(int[] arr, int idx) {
-            
-        if()
     }
 
 }

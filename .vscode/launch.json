@@ -6,10 +6,52 @@
   "configurations": [
     {
       "type": "java",
+<<<<<<< HEAD
       "name": "PrintArrayRecusively",
       "request": "launch",
       "mainClass": "RecusionWithArray.PrintArrayRecusively",
       "projectName": "DSA_979d8ce3"
+=======
+      "name": "PrintWithoutX",
+      "request": "launch",
+      "mainClass": "StringRecursion.PrintWithoutX",
+      "projectName": "DSA_685dbd3"
+    },
+    {
+      "type": "java",
+      "name": "Pattern2",
+      "request": "launch",
+      "mainClass": "Pattern.Pattern2",
+      "projectName": "DSA_685dbd3"
+    },
+    {
+      "type": "java",
+      "name": "Pattern1",
+      "request": "launch",
+      "mainClass": "Pattern.Pattern1",
+      "projectName": "DSA_685dbd3"
+    },
+    {
+      "type": "java",
+      "name": "FirstOccurenceInArray",
+      "request": "launch",
+      "mainClass": "ArrayRecursion.FirstOccurenceInArray",
+      "projectName": "DSA_685dbd3"
+    },
+    {
+      "type": "java",
+      "name": "SumArrayElement",
+      "request": "launch",
+      "mainClass": "ArrayRecursion.SumArrayElement",
+      "projectName": "DSA_685dbd3"
+    },
+    {
+      "type": "java",
+      "name": "MaxArrayElement",
+      "request": "launch",
+      "mainClass": "ArrayRecursion.MaxArrayElement",
+      "projectName": "DSA_685dbd3"
+>>>>>>> bea7fce5757189545bebfee03de4c538b6f480fb
     },
     {
       "type": "java",
