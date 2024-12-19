@@ -6,16 +6,22 @@ public class PermutationByRecursion {
 
         String str="abc";
         
-        recursePermFunc(str,0,"");
+        recursePermFunc(str,"");
     }
 
-    public static void recursePermFunc(String str,int idx,String output){
-
-        if(idx>=str.length()) {
+    public static void recursePermFunc(String str,String output){
+ 
+        if(str.length()==0){
             System.out.println(output);
             return;
         }
 
-        recursePermFunc(str.substring(idx), idx+1, output+str.charAt(idx));
+        for (int i=0;i<str.length();i++){
+           
+            String roq=str.substring(0, i)+str.substring(i+1);
+
+            recursePermFunc(roq, output+str.charAt(i));
+        }
+       
     }
 }

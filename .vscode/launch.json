@@ -6,6 +6,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "KthLargestSort",
+      "request": "launch",
+      "mainClass": "Sort.BubbleSort.KthLargestSort",
+      "projectName": "DSA_685dbd3"
+    },
+    {
+      "type": "java",
+      "name": "IncreaseSort",
+      "request": "launch",
+      "mainClass": "Sort.BubbleSort.IncreaseSort",
+      "projectName": "DSA_685dbd3"
+    },
+    {
+      "type": "java",
+      "name": "IncreaseSort",
+      "request": "launch",
+      "mainClass": "Sort.SelectionSort.IncreaseSort",
+      "projectName": "DSA_685dbd3"
+    },
+    {
+      "type": "java",
+      "name": "P79WordSearch",
+      "request": "launch",
+      "mainClass": "Backtracking.P79WordSearch",
+      "projectName": "DSA_685dbd3"
+    },
+    {
+      "type": "java",
+      "name": "PermutationsByBacktracking",
+      "request": "launch",
+      "mainClass": "Backtracking.PermutationsByBacktracking",
+      "projectName": "DSA_685dbd3"
+    },
+    {
+      "type": "java",
       "name": "PermutationByRecursion",
       "request": "launch",
       "mainClass": "Backtracking.PermutationByRecursion",
