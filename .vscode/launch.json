@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "DecreaseOrder",
+      "request": "launch",
+      "mainClass": "DecreaseOrder",
+      "projectName": "DSA_685dbd3"
+    },
+    {
+      "type": "java",
+      "name": "sortArray",
+      "request": "launch",
+      "mainClass": "Sort.MergeSort.sortArray",
+      "projectName": "DSA_685dbd3"
+    },
+    {
+      "type": "java",
+      "name": "mergeTwoSortedArr",
+      "request": "launch",
+      "mainClass": "Sort.MergeSort.mergeTwoSortedArr",
+      "projectName": "DSA_685dbd3"
+    },
+    {
+      "type": "java",
+      "name": "IncreaseSort",
+      "request": "launch",
+      "mainClass": "Sort.InsertionSort.IncreaseSort",
+      "projectName": "DSA_685dbd3"
+    },
+    {
+      "type": "java",
       "name": "KthLargestSort",
       "request": "launch",
       "mainClass": "Sort.BubbleSort.KthLargestSort",
