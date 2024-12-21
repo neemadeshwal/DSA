@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "randomSort",
+      "request": "launch",
+      "mainClass": "Sort.QuickSort.randomSort",
+      "projectName": "DSA_685dbd3"
+    },
+    {
+      "type": "java",
+      "name": "InversionCount",
+      "request": "launch",
+      "mainClass": "Sort.MergeSort.InversionCount",
+      "projectName": "DSA_685dbd3"
+    },
+    {
+      "type": "java",
       "name": "DecreaseOrder",
       "request": "launch",
       "mainClass": "DecreaseOrder",

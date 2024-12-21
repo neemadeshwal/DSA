@@ -7,9 +7,10 @@ public class sortArray {
 
        mergeSort(arr);
 
-       for(int val:arr){
-           System.out.print(val+" ");
-       }
+
+    //    for(int val:arr){
+    //        System.out.print(val+" ");
+    //    }
 
     
 
@@ -53,6 +54,15 @@ public class sortArray {
         for(int i=start;i<=end;i++){
             arr[i]=result[k++];
         }
+
+
+
+        for(int val:arr){
+            System.out.print(val+" ");
+        }
+        System.out.println();
+        System.out.println();
+ 
 
     }
 
