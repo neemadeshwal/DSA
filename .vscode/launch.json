@@ -6,14 +6,83 @@
   "configurations": [
     {
       "type": "java",
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "name": "PrintArrayRecusively",
+      "name": "randomSort",
       "request": "launch",
-      "mainClass": "RecusionWithArray.PrintArrayRecusively",
-      "projectName": "DSA_979d8ce3"
-=======
-=======
+      "mainClass": "Sort.QuickSort.randomSort",
+      "projectName": "DSA_685dbd3"
+    },
+    {
+      "type": "java",
+      "name": "InversionCount",
+      "request": "launch",
+      "mainClass": "Sort.MergeSort.InversionCount",
+      "projectName": "DSA_685dbd3"
+    },
+    {
+      "type": "java",
+      "name": "DecreaseOrder",
+      "request": "launch",
+      "mainClass": "DecreaseOrder",
+      "projectName": "DSA_685dbd3"
+    },
+    {
+      "type": "java",
+      "name": "sortArray",
+      "request": "launch",
+      "mainClass": "Sort.MergeSort.sortArray",
+      "projectName": "DSA_685dbd3"
+    },
+    {
+      "type": "java",
+      "name": "mergeTwoSortedArr",
+      "request": "launch",
+      "mainClass": "Sort.MergeSort.mergeTwoSortedArr",
+      "projectName": "DSA_685dbd3"
+    },
+    {
+      "type": "java",
+      "name": "IncreaseSort",
+      "request": "launch",
+      "mainClass": "Sort.InsertionSort.IncreaseSort",
+      "projectName": "DSA_685dbd3"
+    },
+    {
+      "type": "java",
+      "name": "KthLargestSort",
+      "request": "launch",
+      "mainClass": "Sort.BubbleSort.KthLargestSort",
+      "projectName": "DSA_685dbd3"
+    },
+    {
+      "type": "java",
+      "name": "IncreaseSort",
+      "request": "launch",
+      "mainClass": "Sort.BubbleSort.IncreaseSort",
+      "projectName": "DSA_685dbd3"
+    },
+    {
+      "type": "java",
+      "name": "IncreaseSort",
+      "request": "launch",
+      "mainClass": "Sort.SelectionSort.IncreaseSort",
+      "projectName": "DSA_685dbd3"
+    },
+    {
+      "type": "java",
+      "name": "P79WordSearch",
+      "request": "launch",
+      "mainClass": "Backtracking.P79WordSearch",
+      "projectName": "DSA_685dbd3"
+    },
+    {
+      "type": "java",
+      "name": "PermutationsByBacktracking",
+      "request": "launch",
+      "mainClass": "Backtracking.PermutationsByBacktracking",
+      "projectName": "DSA_685dbd3"
+    },
+    {
+      "type": "java",
       "name": "PermutationByRecursion",
       "request": "launch",
       "mainClass": "Backtracking.PermutationByRecursion",
@@ -35,7 +104,6 @@
     },
     {
       "type": "java",
->>>>>>> 4c41492dd9a4e063dd28743ce44038a8e0ab4e25
       "name": "PrintWithoutX",
       "request": "launch",
       "mainClass": "StringRecursion.PrintWithoutX",
@@ -75,7 +143,6 @@
       "request": "launch",
       "mainClass": "ArrayRecursion.MaxArrayElement",
       "projectName": "DSA_685dbd3"
->>>>>>> bea7fce5757189545bebfee03de4c538b6f480fb
     },
     {
       "type": "java",

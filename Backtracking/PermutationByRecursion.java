@@ -16,12 +16,12 @@ public class PermutationByRecursion {
             return;
         }
 
-        for (int idx = 0; idx < str.length(); idx++) {
+        for (int i = 0; i < str.length(); i++) {
 
-            String roq = str.substring(0, idx) + str.substring(idx + 1);
+            String roq = str.substring(0, i) + str.substring(i + 1);
 
-            recursePermFunc(roq, output + str.charAt(idx));
-
+            recursePermFunc(roq, output + str.charAt(i));
         }
+
     }
 }
