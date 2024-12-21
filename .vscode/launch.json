@@ -7,11 +7,35 @@
     {
       "type": "java",
 <<<<<<< HEAD
+<<<<<<< HEAD
       "name": "PrintArrayRecusively",
       "request": "launch",
       "mainClass": "RecusionWithArray.PrintArrayRecusively",
       "projectName": "DSA_979d8ce3"
 =======
+=======
+      "name": "PermutationByRecursion",
+      "request": "launch",
+      "mainClass": "Backtracking.PermutationByRecursion",
+      "projectName": "DSA_685dbd3"
+    },
+    {
+      "type": "java",
+      "name": "P17LetterCombinations",
+      "request": "launch",
+      "mainClass": "StringRecursion.P17LetterCombinations",
+      "projectName": "DSA_685dbd3"
+    },
+    {
+      "type": "java",
+      "name": "SubSequence",
+      "request": "launch",
+      "mainClass": "StringRecursion.SubSequence",
+      "projectName": "DSA_685dbd3"
+    },
+    {
+      "type": "java",
+>>>>>>> 4c41492dd9a4e063dd28743ce44038a8e0ab4e25
       "name": "PrintWithoutX",
       "request": "launch",
       "mainClass": "StringRecursion.PrintWithoutX",
