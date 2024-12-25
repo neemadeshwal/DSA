@@ -9,6 +9,13 @@
       "name": "randomSort",
       "request": "launch",
       "mainClass": "Sort.QuickSort.randomSort",
+      "projectName": "DSA_979d8ce3"
+    },
+    {
+      "type": "java",
+      "name": "randomSort",
+      "request": "launch",
+      "mainClass": "Sort.QuickSort.randomSort",
       "projectName": "DSA_685dbd3"
     },
     {
