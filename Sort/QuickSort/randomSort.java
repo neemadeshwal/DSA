@@ -2,50 +2,73 @@ package Sort.QuickSort;
 
 public class randomSort {
 
-    public static void main(String[] args) {
-        int []arr={4,2,7,11,2,-3,6,8,0,2};
+    public static int[] swap(int[]arr,int i,int j){
+        int temp=arr[i];
 
-        int p=partition(arr,0,arr.length-1,6);
+        arr[i]=arr[j];
+        arr[j]=temp;
+
+        return arr;
+
+    }
+
+    public static int partition(int[]arr,int l,int r,int pi){
+
+        int pivot=arr[pi];
+        swap(arr,pi,r);
+
+        int m=l;
+
+        for(int i=l;i<r;i++){
+
+            if(arr[i]<pivot){
+             swap(arr,i,m);
+                m++;
+            }
+
+        }
+        swap(arr,m,r);
+
+        return m;
+    }
+
+    public static void mergeSort(int[]arr){
+        f(arr,0,arr.length-1);
+    }
+
+    public static int randomVal(int l,int r){
+
+        return (int)Math.random()*(r-l)+r;
+    }
+
+    public static void f(int[]arr,int l,int r){
+        
+        if(l>r)return;
+
+        int pi=randomVal(l, r);
+
+        int x=partition(arr, l, r, pi);
+
+        
+        f(arr, l, x-1);
+        f(arr,x+1,r);
+
+
+        
+
+    }
+
+    public static void main(String[] args) {
+        int []arr={4,2,7,11,2,-3,6,8,0};
+
+        mergeSort(arr);
+
 
         for(int val:arr){
             System.out.print(val+" ");
         }
-        
-        System.out.println();
 
-        System.out.println(p+": P ");
     }
 
-    public static int partition(int[]arr,int l,int m,int pi){
-
-    int pivot=arr[pi];
-
-    swap(arr,pi,m);
-
-    int x=l;
-
-    for(int i=l;i<=m-1;i++){
-
-        if(arr[i]<pivot){
-
-            swap(arr,i,x);
-            x++;
-
-        }
-    }
-    swap(arr,l,m);
-    return m;
-    }
-
-    public static void swap(int[]arr,int i,int j){
-
-        int temp;
-
-        temp=arr[i];
-        arr[i]=arr[j];
-        arr[j]=temp;
-    }
   
-
-
 }

@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "binarySearch",
+      "request": "launch",
+      "mainClass": "BinarySearch.binarySearch",
+      "projectName": "DSA_685dbd3"
+    },
+    {
+      "type": "java",
       "name": "randomSort",
       "request": "launch",
       "mainClass": "Sort.QuickSort.randomSort",
