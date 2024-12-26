@@ -6,6 +6,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MountainBicycle",
+      "request": "launch",
+      "mainClass": "OOPS.MountainBicycle",
+      "projectName": "DSA_685dbd3"
+    },
+    {
+      "type": "java",
+      "name": "ConstructorOverLoading",
+      "request": "launch",
+      "mainClass": "OOPS.ConstructorOverLoading",
+      "projectName": "DSA_685dbd3"
+    },
+    {
+      "type": "java",
+      "name": "BicycleExampleClass",
+      "request": "launch",
+      "mainClass": "OOPS.BicycleExampleClass",
+      "projectName": "DSA_685dbd3"
+    },
+    {
+      "type": "java",
+      "name": "P367PerfectSquare",
+      "request": "launch",
+      "mainClass": "BinarySearch.P367PerfectSquare",
+      "projectName": "DSA_685dbd3"
+    },
+    {
+      "type": "java",
+      "name": "P162PeakElement",
+      "request": "launch",
+      "mainClass": "BinarySearch.P162PeakElement",
+      "projectName": "DSA_685dbd3"
+    },
+    {
+      "type": "java",
       "name": "binarySearch",
       "request": "launch",
       "mainClass": "BinarySearch.binarySearch",
