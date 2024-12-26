@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "P162FindGreatest",
+      "request": "launch",
+      "mainClass": "Sort.MergeSort.P162FindGreatest",
+      "projectName": "DSA_979d8ce3"
+    },
+    {
+      "type": "java",
       "name": "binarySearch",
       "request": "launch",
       "mainClass": "BinarySearch.binarySearch",
