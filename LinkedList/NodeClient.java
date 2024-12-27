@@ -5,6 +5,7 @@ public class NodeClient {
 
         basicSetup nodeClient = new basicSetup();
 
+
         nodeClient.addNodeAtStart(10);
 
         nodeClient.addAtIndex(20, 1);
@@ -13,9 +14,8 @@ public class NodeClient {
         nodeClient.addAtIndex(60, 4);
         nodeClient.display();
         System.out.println();
-
-        nodeClient.ReverseLinkedListFunc(nodeClient);
-        nodeClient.display();
+        nodeClient.ReverseLinkedListFunc();
+        nodeClient.display();   
 
     }
 
