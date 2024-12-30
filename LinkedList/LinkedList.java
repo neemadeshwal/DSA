@@ -67,7 +67,6 @@ public class LinkedList {
 
             temp=temp.next;
         }
-        System.out.println(temp.data);
 
         Node forward=temp.next;
 
@@ -151,5 +150,41 @@ public class LinkedList {
         curr=next;
 
         ReverseLinkdListWithRecursion(prev, curr);
+     }
+    
+     public int FindMiddleElement(){
+
+        if(this.head.next==null) return -1;
+
+         Node temp=this.head;
+         int count=0;
+
+         while(temp.next!=null){
+           
+        
+         temp=temp.next;
+         count=count+1;
+         System.out.println(count+" count in loop");
+
+
+         }
+
+         count=count+1;
+
+         
+         int middleIdx=count/2;
+
+         System.out.println(middleIdx+" middleidx");
+
+         Node tempVal=this.head;
+
+         for(int i=1;i<=middleIdx;i++){
+
+            tempVal=tempVal.next;
+            
+         }
+         System.out.println(tempVal.data);
+
+         return tempVal.data;
      }
     }

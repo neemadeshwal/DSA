@@ -4,6 +4,7 @@ public class LinkedListExample {
     
     LinkedList newList=new LinkedList();
 
+    
     newList.addStart(10);
     newList.addStart(20);
     newList.addStart(30);
@@ -29,6 +30,8 @@ public class LinkedListExample {
     newList.addLast(500);
 
     newList.addLast(1000);
+    newList.addLast(5000);
+
 
     newList.display();
 
@@ -45,6 +48,9 @@ public class LinkedListExample {
     newList.ReverseLinkdListWithRecursion(null, newList.head);
 
     newList.display();
+    System.out.println();
+
+    System.out.println(newList.FindMiddleElement()+"newlist");
 
 
 
