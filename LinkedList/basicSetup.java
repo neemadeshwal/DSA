@@ -98,23 +98,33 @@ public class basicSetup {
 
     }
 
-    public void ReverseLinkedListFunc(basicSetup list) {
+    public Node ReverseLinkedListFunc() {
+Node temp=this.head;
 
-        Node temp = this.head;
+      Node prev=null;
+      Node current=this.head;
+        while (current != null) {
 
-        Node oldVal = this.head;
+          Node next=current.next;
 
-        while (temp.next != null) {
-            System.out.println(temp.data + " temp data");
+          current.next=prev;
 
-            temp = temp.next;
 
+          prev=current;
+
+
+
+          current=next;
+         
         }
 
-        this.head = temp;
-        oldVal.next = null;
+        this.head=prev;
 
-        System.out.println("after this");
+        
+
+
+       return prev;
+
 
     }
 
@@ -122,4 +132,5 @@ public class basicSetup {
         System.out.println("---------------");
 
     }
+
 }
